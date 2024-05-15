@@ -1,0 +1,239 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    
+  }
+  html{
+    font-size:62.5%;
+    font-family:sans-serif;
+  }
+  body{
+    height:100vh;
+    background-color:#0a0a23;
+  }
+  main{
+    width:90%;
+    margin:1rem auto;
+    font-size:1.5rem;
+    word-spacing:0.25rem;
+    background-color:#fff;
+    /* max-width:500px;
+    min-width:300px; */
+    
+  }
+  #header-img{
+    width:10%;margin-top:1rem;
+    margin-left:1rem;
+  }
+  nav ul{
+    list-style:none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    
+    
+    
+  }
+  nav a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    
+    
+    
+  }
+  nav 
+  li{
+    margin-right:2rem;
+    background:linear-gradient(90deg, #0a0a23, #5f0000cc);
+    width:10rem;
+    height:3rem;
+    border-radius:1rem;
+    text-align:center;
+   padding-top: 5px;
+   
+   
+    }
+  header{
+    background-color:tomato;;  
+    display:flex;
+    width: 90%;
+     justify-content: space-evenly; 
+    border-radius:15px;  
+    margin-bottom:2rem;
+  position:fixed; 
+  
+      
+    }
+    em{
+      margin-top:15px;
+    }
+    #Home{
+     text-align: center;
+     line-height: 1.5;
+     font-size: large;
+    }
+    #clothlist{
+        display: block;
+        text-align: left;
+       margin-inline-start: 40%;
+      
+    }
+    #video{
+      width:100%;
+      object-fit:cover;
+      aspect-ratio:3/4;
+      max-width: 500px;
+     min-height: auto;
+     margin: 20px auto;
+      
+    }
+    #caption{
+      color:navy;
+      font-weight:bold;
+    }
+    #description2{
+      padding-top:1rem;
+    }
+    #description2 ul{
+      list-style:none;
+    }
+  
+    #Products img{
+      width:100%;
+      object-fit:cover;
+      aspect-ratio:3/4;
+      max-width:200px;
+      min-height: 100px;
+    }
+    #grid{
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+   margin-left: 20%;
+   gap: 30px;
+   grid-column: 1/-1;
+    }
+    #grid div{
+        border: 2px solid #0a0a23;
+        padding: 5px;
+        border-radius: 15px;
+    }
+    
+    
+    #products h4, #products figure, #products h1  {
+      text-align:center;
+    }
+    #grid h1{
+  margin-top:1rem;  background:linear-gradient(90deg, #0a5f0a,#1a5f1a);
+  width:200px;
+    }
+  
+    #description1{
+      padding-top:100px;
+    }
+  #order{
+    background-color:#5d5d5d;
+    text-align:center;
+    padding:20px 0;
+  }
+  #order h3{
+    font-size:2.7rem;
+    padding-bottom:15px;
+  }
+  #order p{
+    padding-bottom:15px;
+  }
+  select{
+    width:70%;
+    margin:0 auto;
+    border:none;
+    outline:none;
+    background-color:#0a0a9c;
+    color:white;
+  }
+  form{
+    background-color:#9c9c9c;
+    padding:15px;
+    
+  }
+  fieldset{
+    outline:none;
+    border:none;
+    padding:15px 0;
+  }
+  
+  fieldset label{
+    display:block;
+    width:80%;
+    padding-bottom:5px;
+  }
+  
+  fieldset input,
+  fieldset textarea{
+    width:100%;
+    outline:none;
+    border:none;
+    color:black;
+  
+  }
+  #submit{
+    width:unset;
+    background-color: red;
+    width: 100px;
+    height: 20px;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 10%;
+    color: white;
+  }
+  
+  #address{
+    background:linear-gradient(90deg, #5d5d5d, #9c9c9c);
+    display:grid;
+    grid-template-columns:2fr 1fr;
+  }
+  
+  .social-icons a{
+    text-decoration:none;
+    color:black;
+  }
+  
+  @media (max-width:500px){
+    header{
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  
+  
+    }
+    nav 
+  li{
+    width:7rem;
+    height:2rem;
+    }
+    nav ul{
+      padding-left:30px;
+    }
+  }
+
+  @media (max-width:500px){
+    #grid{
+       padding: 0;
+        grid-template-columns: 1fr;
+        margin: 10px;
+    }
+    #grid div{
+      width: 220px;
+      display: grid;
+      margin-left: 20%;
+    }
+  }
+  h2{
+    text-align: center;
+    margin-top: 5%;
+    color: tomato;
+  }
+  #place-order{
+    color: tomato;
+  }
